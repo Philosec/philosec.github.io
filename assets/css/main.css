@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(77, 77, 77);
+}
+
+/* 
+Header
+*/
+header {
+  height: 100px;
+  color: white;
+  font-size: 36px;
+  background-color: rgb(15, 15, 15);
+  border-bottom: 5px solid aqua;
+}
+
+table.table-center {
+  margin-left: auto;
+  margin-right: auto;  
+  height: 100%
+}
+
+td.first-name {
+  padding-right: 70px;
+}
+
+td.last-name {
+  padding-left: 70px;
+}
+
+td.first-name, td.last-name {
+  vertical-align: middle;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.page-link {
+  vertical-align: middle;
+}
+
+.page-link a {
+  color: white;
+  text-decoration: none;
+  margin: 0 25px;
+}
+
+/* 
+Main content
+*/
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h1, h2 {
+  font-weight: bold;
+  color: rgb(233, 233, 233);
+  height: 100%;
+}
+
+.slash-base {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.slash {
+  font-size: 65px;
+}
+
+.slash-larger {
+  font-size: 80px;
+}
+
+.slash, .slash-larger {
+  font-weight: bold;
+  color: rgb(36, 255, 54);
+  height: 100%;
+  margin-right: 10px;
+}
+
+/* 
+Misc
+*/
+.clear-fix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
