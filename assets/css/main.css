@@ -1,46 +1,129 @@
+
+Conversation opened. 1 unread message.
+
+Skip to content
+Using Gmail with screen readers
+ 
+ 
+More 
+1 of 102
+ 
+school stuff
+Inbox
+	x
+Shane Padgett
+	
+Attachments4:53 PM (54 minutes ago)
+	
+to me
+
+more
+
+ 
+
+Shane Padgett
+
+Supply Chain Management - Diffusion/Implant
+
+S2 CIS Owner
+
+Email: s.padgett@samsung.com
+
+Desk: x53394
+
+Cell: (860)912-9611
+
+ 
+
+ 
+2 Attachments
+	
+Click here to Reply or Forward
+1.53 GB (10%) of 15 GB used
+Manage
+Terms - Privacy
+Last account activity: 0 minutes ago
+Details
+	
+	
+
+html {
+  height: 100%;
+}
+
 body {
-  background-color: rgb(77, 77, 77);
+  background: linear-gradient(to bottom,#252525,#424242);
+  font-size: 22px;
+  color: rgb(180, 180, 180);
+  text-align: center;
+  height: inherit;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/street-lamps.jpg");
 }
 
 /* 
-Header
+Header / Footer
 */
 header {
-  height: 100px;
   color: white;
   font-size: 36px;
   background-color: rgb(15, 15, 15);
-  border-bottom: 5px solid aqua;
 }
 
-table.table-center {
-  margin-left: auto;
-  margin-right: auto;  
-  height: 100%
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
-td.first-name {
-  padding-right: 70px;
-}
-
-td.last-name {
-  padding-left: 70px;
-}
-
-td.first-name, td.last-name {
-  vertical-align: middle;
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-.page-link {
-  vertical-align: middle;
-}
-
-.page-link a {
-  color: white;
+header a {
   text-decoration: none;
-  margin: 0 25px;
+  color: white;
+  margin: 0 10px;
+}
+
+header p {
+  margin: 10px auto;
+  font-size: 48px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bottom-border-gradient {
+  border-bottom: 5px solid;
+  border-image: linear-gradient(to right,#f15b2a,#e80a89) 20;
+}
+
+.top-border-gradient {
+  border-top: 5px solid;
+  border-image: linear-gradient(to right,#f15b2a,#e80a89) 20;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  clear: both;
+  background-color: rgb(15, 15, 15);
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 0;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+p {
+  line-height: 42px;
 }
 
 /* 
@@ -54,10 +137,28 @@ h2 {
   font-size: 32px;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: bold;
   color: rgb(233, 233, 233);
   height: 100%;
+  padding: 0;
+}
+
+img.profile-img {
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
+.block-center {
+  display: block;
+  margin: 0 auto;
+}
+
+.inline-block-center {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .slash-base {
@@ -74,11 +175,54 @@ h1, h2 {
   font-size: 80px;
 }
 
-.slash, .slash-larger {
+.slash,
+.slash-larger {
   font-weight: bold;
-  color: rgb(36, 255, 54);
+  background: -webkit-linear-gradient(#f15b2a, #e80a89);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   height: 100%;
   margin-right: 10px;
+}
+
+.content-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.quote {
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 25px;
+  word-wrap: normal;
+}
+
+.flex-container-v {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-margin {
+  margin-bottom: 60px;
+}
+
+a img {
+  width: 80px;
+  height: 80px;
+  margin: 0 25px;
+  background: #E90F83;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+a img:hover {
+  background: #ED3754;
 }
 
 /* 
@@ -89,3 +233,6 @@ Misc
   display: table;
   clear: both;
 }
+
+main.txt
+Displaying index.txt.
